@@ -28,5 +28,4 @@ public class Mix4 {
       return 0;
     }
   }
-
 }
