@@ -12,16 +12,16 @@ public class SimpleDotCom {
   public String checkYourself(String userGuess) {
     int i = 0;
     int num = 0;
-    while(i < userGuess.length()){
+    while (i < userGuess.length()) {
       int x = userGuess.charAt(i);
       num = num * 10 + x;
       i++;
     }
     i = 0;
-    while(i < locationCells.length){
-      if(locationCells[i] == num){
+    while (i < locationCells.length) {
+      if (locationCells[i] == num) {
         numOfHits++;
-        if(numOfHits == 3){
+        if (numOfHits == 3) {
           return "sank!";
         }
         return "hit";
