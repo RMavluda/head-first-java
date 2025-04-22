@@ -10,24 +10,23 @@ public class SimpleDotCom {
   }
 
   public String checkYourself(String userGuess) {
-    int i = 0;
-    int num = 0;
-    while (i < userGuess.length()) {
-      int x = userGuess.charAt(i);
-      num = num * 10 + x;
-      i++;
-    }
-    i = 0;
-    while (i < locationCells.length) {
-      if (locationCells[i] == num) {
+    int guess = Integer.parseInt(userGuess);
+
+    String result = "miss";
+
+    for (int cell : locationCells) {
+      if (guess == cell) {
+
+        result = "hit";
         numOfHits++;
-        if (numOfHits == 3) {
-          return "sank!";
-        }
-        return "hit";
+        break;
       }
     }
-    return "miss";
+    if (numOfHits == locationCells.length) {
+      result = "sank";
+    }
+    System.out.println(result);
+    return result;
   }
 }
 
