@@ -21,7 +21,7 @@ public class SimpleDotComGame {
 
       numOfGuesses++;
 
-      if (result.equals("hit")) {
+      if (result.equals("sank")) {
         isAlive = false;
         System.out.println("It took you " + numOfGuesses + " guesses");
       }
