@@ -2,8 +2,8 @@ package main.java.org.example.methods;
 
 public class SimpleDotCom {
 
-  int[] locationCells; // yacheyka dresini saqalsh uchun massiv
-  int numOfHits = 0; // to`g`ri kelganlik sonini hisoblash uchun o`zgaruvchi loc
+  int[] locationCells; // yacheyka dresini saqlash uchun massiv
+  int numOfHits = 0; // to`g`ri kelganlik sonini hisoblash uchun o`zgaruvchi
 
   public void setLocationCells(int[] locations) {
     locationCells = locations;
