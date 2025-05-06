@@ -1,4 +1,4 @@
-package main.java.org.example.JavaAPI.DotComGame;
+package main.java.org.example.JavaAPI.DotComGame.SimpleDotCom;
 
 public class SimpleDotCom {
 

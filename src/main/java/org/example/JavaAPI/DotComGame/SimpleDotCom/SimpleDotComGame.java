@@ -1,4 +1,6 @@
-package main.java.org.example.JavaAPI.DotComGame;
+package main.java.org.example.JavaAPI.DotComGame.SimpleDotCom;
+
+import main.java.org.example.JavaAPI.DotComGame.GameHelper;
 
 public class SimpleDotComGame {
 

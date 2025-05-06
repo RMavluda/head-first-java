@@ -4,12 +4,17 @@ import java.util.ArrayList;
 
 public class DotCom {
 
+  private String name;
   private ArrayList<String> locationCells;
   // private int numOfHits;
   // seychas eto nam ne nujno
 
   public void setLocationCells(ArrayList<String> loc) {
     locationCells = loc;
+  }
+
+  public void setName(String name) {
+    this.name = name;
   }
 
   public String checkYourself(String userInput) {
@@ -21,6 +26,7 @@ public class DotCom {
 
       if (locationCells.isEmpty()) {
         result = "sank";
+        System.out.println("Oh, you sank the " + name + " : ( ");
       } else {
         result = "hit";
       }
