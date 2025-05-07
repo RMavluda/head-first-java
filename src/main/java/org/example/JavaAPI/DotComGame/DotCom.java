@@ -4,10 +4,10 @@ import java.util.ArrayList;
 
 public class DotCom {
 
-  private String name;
   private ArrayList<String> locationCells;
+  private String name;
   // private int numOfHits;
-  // seychas eto nam ne nujno
+  // We don't need this right now
 
   public void setLocationCells(ArrayList<String> loc) {
     locationCells = loc;
