@@ -1,4 +1,4 @@
-package main.java.org.example.JavaAPI.DotComGame;
+package main.java.org.example.chapter_006_JavaAPI.DotComGame;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

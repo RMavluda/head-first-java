@@ -1,4 +1,4 @@
-package chapter04objects;
+package main.java.org.example.chapter_004_objects;
 
 public class Mix4 {
 

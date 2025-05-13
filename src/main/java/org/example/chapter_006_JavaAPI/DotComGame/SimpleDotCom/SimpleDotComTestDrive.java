@@ -1,4 +1,4 @@
-package main.java.org.example.JavaAPI.DotComGame.SimpleDotCom;
+package main.java.org.example.chapter_006_JavaAPI.DotComGame.SimpleDotCom;
 
 public class SimpleDotComTestDrive {
 

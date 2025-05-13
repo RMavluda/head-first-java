@@ -1,4 +1,4 @@
-package main.java.org.example.API;
+package main.java.org.example.chapter_006_JavaAPI;
 
 import java.util.ArrayList;
 

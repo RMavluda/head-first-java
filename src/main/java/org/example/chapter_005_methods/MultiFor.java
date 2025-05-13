@@ -1,4 +1,4 @@
-package main.java.org.example.methods;
+package main.java.org.example.chapter_005_methods;
 
 public class MultiFor {
 

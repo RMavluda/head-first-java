@@ -1,8 +1,8 @@
-package main.java.org.example.JavaAPI.DotComGame.DotComBust;
+package main.java.org.example.chapter_006_JavaAPI.DotComGame.DotComBust;
 
 import java.util.ArrayList;
-import main.java.org.example.JavaAPI.DotComGame.DotCom;
-import main.java.org.example.JavaAPI.DotComGame.GameHelper;
+import main.java.org.example.chapter_006_JavaAPI.DotComGame.DotCom;
+import main.java.org.example.chapter_006_JavaAPI.DotComGame.GameHelper;
 
 public class DotComBust {
 
